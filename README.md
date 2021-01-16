@@ -6,7 +6,7 @@
   - I used `sh ./configure --prefix=/home/christoph/Documents/argus/unuran/ --enable-shared --with-pic`
 - `libunuran.a` is in `/home/christoph/Documents/argus/unuran/lib`
 
-The code below is supposed to follow the example http://statmath.wu.ac.at/software/unuran/doc/unuran.html#Example_005f0 to generate a random variate that is normally distributed. The goal is to wrap the C code in Python using Cython as described here: https://cython.readthedocs.io/en/latest/src/tutorial/clibraries.html
+The code below is supposed to follow the example http://statmath.wu.ac.at/software/unuran/doc/unuran.html#Example_005f0 to generate a random variate that is normally distributed. The code is slighlty adapted to use the method PINV (http://statmath.wu.ac.at/software/unuran/doc/unuran.html#PINV). The goal is to wrap the C code in Python using Cython as described here: https://cython.readthedocs.io/en/latest/src/tutorial/clibraries.html
 
 *unuran.h in UNU.RAN library:* 
 
