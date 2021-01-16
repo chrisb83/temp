@@ -8,7 +8,7 @@
 - Ubuntu 20.04
 - gcc (Homebrew GCC 5.5.0_7) 5.5.0
 
-The code below is supposed to follow the example http://statmath.wu.ac.at/software/unuran/doc/unuran.html#Example_005f0 to generate a random variate that is normally distributed. The code is slighlty adapted to use the method PINV (http://statmath.wu.ac.at/software/unuran/doc/unuran.html#PINV). The goal is to wrap the C code in Python using Cython as described here: https://cython.readthedocs.io/en/latest/src/tutorial/clibraries.html
+The code in the repository is supposed to follow the example http://statmath.wu.ac.at/software/unuran/doc/unuran.html#Example_005f0 to generate a random variate that is normally distributed. The code is slighlty adapted to use the method PINV (http://statmath.wu.ac.at/software/unuran/doc/unuran.html#PINV). The goal is to wrap the C code in Python using Cython as described here: https://cython.readthedocs.io/en/latest/src/tutorial/clibraries.html
 
 *unuran.h in UNU.RAN library:* 
 
